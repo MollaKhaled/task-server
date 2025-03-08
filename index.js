@@ -15,7 +15,7 @@ app.use(express.json());
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "https://eloquent-seahorse-6bf68c.netlify.app/",
+    origin: "https://eloquent-seahorse-6bf68c.netlify.app",
     methods: ["GET", "POST"],
   },
 });
